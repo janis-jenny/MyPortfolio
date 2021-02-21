@@ -1,0 +1,52 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  /*
+===========================================================
+                       GENERAL STYLES
+ ==========================================================
+*/
+
+:root {
+  --color1: #030303;
+  --color2: #3b393a;
+  --color3: #a99561;
+  --color4: #efefef;
+  --color5: #fff;
+}
+
+/*
+===========================================================
+                       NAVBAR
+ ==========================================================
+*/
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(135deg, #fff 0%, #fff 60%, #efefef 100%);
+  font-size: 0.85rem;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  transition: 0.6s;
+}
+
+.logo-img:hover {
+  transform: rotateY(360deg);
+}
+
+.logo-img img {
+  width: 35px;
+  height: 35px;
+}
+
+.link {
+  color: var(--color1);
+  padding: 0.4rem;
+}
+
+.link:hover {
+  color: var(--color1);
+  background-color: var(--color3);
+  text-decoration: none;
+}

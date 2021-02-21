@@ -5,7 +5,10 @@
 }
 
 body {
-  font-family: "gotham-rounded-light", Arial, Helvetica, sans-serif;
+  font-family: 'Numans', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -14,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gotham-Bold", Arial, Helvetica, sans-serif;
+  font-family: 'Numans', sans-serif;
 }
 
 a {
