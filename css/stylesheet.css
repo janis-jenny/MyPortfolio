@@ -53,6 +53,23 @@
   border-radius: 0.15rem;
 }
 
+#logo {
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  background-color: var(--color3);
+  height: 65px;
+  width: 58px;
+}
+
+.logo {
+  position: absolute;
+  right: 0.8rem;
+  height: 46px;
+  width: 35px;
+}
+
+
 /*
 ===========================================================
                         HEADER
