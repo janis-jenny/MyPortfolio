@@ -25,21 +25,6 @@
   font-size: 0.95rem;
 }
 
-.logo-img {
-  width: 60px;
-  height: 60px;
-  transition: 0.6s;
-}
-
-.logo-img:hover {
-  transform: rotateY(360deg);
-}
-
-.logo-img img {
-  width: 35px;
-  height: 35px;
-}
-
 .link {
   color: var(--color1);
   text-shadow: 2px 2px 2px #a99561;
@@ -60,6 +45,11 @@
   background-color: var(--color3);
   height: 65px;
   width: 58px;
+  transition: 0.6s;
+}
+
+#logo:hover {
+  transform: rotateY(360deg);
 }
 
 .logo {
@@ -69,6 +59,26 @@
   width: 35px;
 }
 
+#arrow {
+  position: relative;
+  top: -4.6rem;
+  background-color: var(--color3);
+  margin-left: 3rem;
+  margin-top: 0;
+  height: 65px;
+  width: 58px;
+  transition: 0.6s;
+}
+
+#arrow:hover {
+  transform: rotateY(360deg);
+}
+
+.arrow {
+  padding-right: 0;
+  height: 46px;
+  width: 35px;
+}
 
 /*
 ===========================================================
@@ -160,6 +170,14 @@
 
   .my-img {
     display: none;
+  }
+
+  #arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1.8rem;
+    left: 6rem;
   }
 }
 
