@@ -148,7 +148,7 @@
 
 .art-img img {
   position: absolute;
-  left: 7rem;
+  left: 3rem;
   right: 0;
   z-index: 1;
 }
@@ -160,27 +160,24 @@
   border-radius: 5.5px;
   position: absolute;
   top: 1rem;
-  left: 12rem;
-}
-
-.about-txt > * + * {
-  padding-right: 2.5rem;
+  left: 8rem;
 }
 
 .about-txt > h1 {
   font-weight: bolder;
   color: var(--color3);
-  margin-right: 3rem;
+  margin-right: 4rem;
 }
 
 .about-txt > h2 {
   font-weight: bolder;
   color: var(--color5);
-  margin-right: 0.5rem;
+  margin-right: 4rem;
 }
 
 .about-txt > p {
   margin-top: 2rem;
+  margin-right: 3rem;
   color: var(--color5);
 }
 
@@ -188,7 +185,7 @@
   color: var(--color5);
   border: 2.5px solid var(--color3);
   border-radius: 5px;
-  margin: 1rem 3.2rem 0 auto;
+  margin: 1rem 4rem 0 auto;
 }
 
 .about-txt > span:hover {
