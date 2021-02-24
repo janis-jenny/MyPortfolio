@@ -88,7 +88,6 @@
 
 .bg {
   background-color: var(--color1);
-  height: 700px;
 }
 
 .social i {
@@ -202,7 +201,6 @@
 .contact {
   background: linear-gradient(to right, #524F51 0%, #272626 26%, #090909 100%);
   margin-top: 3rem;
-  height: 8rem;
   color: var(--color5);
 }
 
@@ -253,16 +251,12 @@
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 8rem;
+    left: 7rem;
   }
 
   .art-img {
     position: relative;
-    right: 0;
-  }
-
-  .art-img {
-    position: relative;
+    top: 3rem;
     left: 2.7rem;
     width: 230px;
     height: 330px;
@@ -281,20 +275,20 @@
     height: 310px;
     border-radius: 5.5px;
     position: absolute;
-    top: 1rem;
+    top: 4rem;
     left: 3rem;
   }
   
   .about-txt > h1 {
     font-weight: bolder;
     color: var(--color3);
-    margin: 3rem 11rem 0 auto;
+    margin: 5rem 11rem 0 auto;
   }
   
   .about-txt > h2 {
     font-weight: bolder;
     color: var(--color5);
-    margin: 3rem 4rem 0 auto;
+    margin: 2rem 4rem 0 auto;
   }
 
   .about-txt > p {
@@ -302,6 +296,9 @@
     color: var(--color5);
   }
   
+  .contact {
+    height: 18rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
