@@ -140,7 +140,6 @@
  ==========================================================
 */
 
-
 .art-img {
   position: relative;
   left: 6rem;
@@ -198,6 +197,17 @@
   color: var(--color5);
   border: 2.5px solid var(--color3);
   border-radius: 5px;
+}
+
+.contact {
+  background: linear-gradient(to right, #524F51 0%, #272626 26%, #090909 100%);
+  margin-top: 3rem;
+  height: 8rem;
+  color: var(--color5);
+}
+
+.contact > div {
+  text-align: center;
 }
 
 /*
@@ -304,6 +314,7 @@
     margin-top: 3.5rem;
     padding: 0 4rem;
   }
+
 }
 
 @media screen and (min-width: 960px) {
