@@ -21,7 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  
   <title>Paola Jenny Cárdenas | Welcome</title>
+
 </head>
 <body>
   <div class="main-container container-fluid">
@@ -83,9 +85,61 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="projects" class="projects row d-flex flex-column justify-content-center align-items-center">
+      <div class="container-fluid title col-12 d-flex flex-column align-items-center">
+        <h1>01</h1>
+        <h2>PROJECTS</h2>
+      </div>
 
+      <div id="carouselExampleCaptions" class="carousel carousel-size slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active project-carousel">
+            <div class="carousel-image jc-music"></div>
+            <div class="carousel-caption contrast">
+              <h3>JC Music Store</h3>
+              <p class="d-none d-md-block">This is a responsive site that has a search bar in the header of the page, where you can look for your instruments by name and filter the results by different criteria in the search page.</p>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://github.com/janis-jenny/JC-Music-Store" target="_blank">Code</a>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://raw.githack.com/janis-jenny/JC-Music-Store/JCStore/index.html" target="_blank">Live</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image newsweek"></div>
+            <div class="carousel-caption contrast">
+              <h3>Newsweek Page</h3>
+              <p class="d-none d-md-block">A training project involving the rebuilding of the Newsweek homepage using Bootstrap, HTML and CSS</p>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://github.com/janis-jenny/Newsweek-Clone-Page" target="_blank">Code</a>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://raw.githack.com/janis-jenny/Newsweek-Clone-Page/Newsweek/INDEX.html" target="_blank">Live</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image css-linter"></div>
+            <div class="carousel-caption contrast">
+              <h3>CSS Linter</h3>
+              <p class="d-none d-md-block">Made with Ruby, it is a linter that has over six styling rules to check for inside the CSS files of your project.</p>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://github.com/janis-jenny/Ruby-Linter" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image habitica"></div>
+            <div class="carousel-caption contrast">
+              <h3>Habitica</h3>
+              <p class="d-none d-md-block">Habitica is a mobile application for recording days and time spent per week for any habits that you can create and then group them in a category.</p>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://github.com/janis-jenny/Habitica" target="_blank">Code</a>
+              <a class="button btn btn-light d-block d-lg-inline" href="https://cryptic-escarpment-27413.herokuapp.com/" target="_blank">Live</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left fa-4x" aria-hidden="true"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
   </main>
+  <script src="./js/index.js"></script>
 </body>
 </html>
