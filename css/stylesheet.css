@@ -201,6 +201,10 @@
   color: var(--color5);
 }
 
+#projects {
+  margin-bottom: 1rem;
+}
+
 .contact > div {
   text-align: center;
 }
@@ -297,7 +301,7 @@
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 7rem;
+    left: 8rem;
   }
 
   .art-img {
@@ -328,13 +332,13 @@
   .about-txt > h1 {
     font-weight: bolder;
     color: var(--color3);
-    margin: 5rem 11rem 0 auto;
+    margin: 5rem 10rem 0 auto;
   }
   
   .about-txt > h2 {
     font-weight: bolder;
     color: var(--color5);
-    margin: 2rem 4rem 0 auto;
+    margin: 2rem 6rem 0 auto;
   }
 
   .about-txt > p {
@@ -355,7 +359,7 @@
   }
 
   .carousel-size {
-    height: 98%;
+    height: 70%;
     width: 100%;
   }
 
@@ -393,7 +397,7 @@
 
   .carousel-size {
     height: 100%;
-    width: 80%;
+    width: 76%;
   }
 }
 
