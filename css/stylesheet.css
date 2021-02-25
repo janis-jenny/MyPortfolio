@@ -221,14 +221,6 @@
   margin-top: 1rem;
 }
 
-.carousel-image {
-  height: 85vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
-}
-
 .jc-music {
   background-image: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/jc-music-mockup.png);
 }
@@ -258,13 +250,43 @@
   border-radius: 5px;
 }
 
+.data, .soft, .other {
+  border: 2.5px solid var(--color3);
+  border-radius: 7px;
+  color: var(--color5);
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  width: 100%;
+}
+
+.data > img {
+  width: 50px;
+  height: 80px;
+  filter: invert(100%);
+}
+
+.soft > img {
+  width: 50px;
+  height: 80px;
+  filter: invert(100%);
+}
+
+.other > img {
+  width: 50px;
+  height: 80px;
+  filter: invert(100%);
+}
+
+.list {
+  margin-top: 1.7rem;
+}
 /*
 ===========================================================
                      MEDIA QUERIES
  ==========================================================
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .name {
     font-size: 2rem;
     margin-top: 3rem;
@@ -349,31 +371,49 @@
   .contact {
     height: 18rem;
   }
-
+  .projects {
+    height: fit-content;
+  
+  }
   .carousel-image {
-    height: 85vh;
+    height: 64vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-position: 80% 37%;
+    background-size: 100% 60%;
+
   }
 
   .carousel-size {
-    height: 70%;
+    height: 90%;
     width: 100%;
   }
 
   .contrast {
     background-color: rgb(0, 0, 0, 0.5);
     border-radius: 5px;
-    padding-bottom: 1.2rem;
+    padding: 1rem;
+    margin: 0rem 2rem;
+    bottom: 8rem;
   }
 
+  .contrast > h3 {
+    font-size: 15px;
+  }
+
+  
   .button {
     font-weight: bold;
     border: 2px solid var(--color3);
     border-radius: 5px;
-    margin: 1.5rem 3.5rem 1.2rem;
+    margin: 0.5rem 1.1rem 0.5rem;
+    padding: 4px 6px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
   }
 }
 
@@ -388,16 +428,20 @@
     padding: 0 4rem;
   }
 
-  .contrast {
-    background-color: rgb(0, 0, 0, 0.5);
+  .contrast > h3 {
+    font-size: 15px;
+  }
+  
+  .button {
+    font-weight: bold;
+    border: 2px solid var(--color3);
     border-radius: 5px;
-    padding: 1rem;
-    padding-bottom: 1.5rem;
+    margin: 0.5rem 1.1rem 0.5rem;
+    padding: 4px 6px;
   }
 
-  .carousel-size {
-    height: 100%;
-    width: 76%;
+  .data {
+    width: 90%;
   }
 }
 
@@ -414,5 +458,35 @@
 
   .dev {
     margin: 2rem 10rem;
+  }
+
+  
+  .contrast {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.7rem 2rem;
+    bottom: 1rem;
+  }
+
+  .carousel-image {
+    height: 96vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 90% 70%;
+    background-size: 100% 100%;
+  }
+
+  .carousel-size {
+    height: 100%;
+    width: 75%;
+  }
+
+  .button {
+    font-weight: bold;
+    border: 2px solid var(--color3);
+    border-radius: 5px;
+    margin: 0.5rem 1.1rem 0.5rem;
+    padding: 4px 7px;
   }
 }
