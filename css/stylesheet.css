@@ -294,6 +294,11 @@
   max-height: 100px;
 }
 
+.made {
+  color: var(--color5);
+  padding-top: 4px;
+}
+
 /*
 ===========================================================
                      MEDIA QUERIES
