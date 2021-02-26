@@ -280,6 +280,20 @@
 .list {
   margin-top: 1.7rem;
 }
+
+#technologies > h5 {
+  color: var(--color5);
+}
+
+.techs > li {
+  color: var(--color3);
+}
+
+.icon {
+  max-width: 60px;
+  max-height: 100px;
+}
+
 /*
 ===========================================================
                      MEDIA QUERIES
@@ -323,7 +337,7 @@
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 8rem;
+    left: 7rem;
   }
 
   .art-img {
@@ -371,17 +385,15 @@
   .contact {
     height: 18rem;
   }
-  .projects {
+  /* .projects {
     height: fit-content;
-  
-  }
+  } */
   .carousel-image {
     height: 64vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 80% 37%;
-    background-size: 100% 60%;
-
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .carousel-size {
@@ -394,13 +406,12 @@
     border-radius: 5px;
     padding: 1rem;
     margin: 0rem 2rem;
-    bottom: 8rem;
+    bottom: 2rem;
   }
 
   .contrast > h3 {
     font-size: 15px;
   }
-
   
   .button {
     font-weight: bold;
@@ -414,6 +425,24 @@
     display: flex;
     flex-direction: column;
     margin-left: 0;
+  }
+
+  .techs > li {
+    margin: 0.5rem 1rem;
+  }
+
+  .tech-list {
+    flex-direction: column;
+  }
+
+  .icon {
+    max-width: 84px;
+    max-height: 44px;
+  }
+  
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+    max-width: 52px;
+    max-height: 37px;
   }
 }
 
@@ -432,6 +461,57 @@
     font-size: 15px;
   }
   
+  #arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1.8rem;
+    left: 18.6rem;
+  }
+
+  .art-img {
+    position: relative;
+    top: 3rem;
+    left: 11.5rem;
+    width: 230px;
+    height: 330px;
+  }
+  
+  .art-img img {
+    position: absolute;
+    left: 2.7rem;
+    right: 0;
+    z-index: 1;
+  }
+  
+  #rectangle {
+    border: 2.3px solid var(--color3);
+    width: 200px;
+    height: 310px;
+    border-radius: 5.5px;
+    position: absolute;
+    top: 4rem;
+    left: 11.7rem
+  }
+
+  .about-txt > h1 {
+    font-weight: bolder;
+    color: var(--color3);
+    margin: 5rem 3rem 0 0;
+  }
+  
+  .about-txt > h2 {
+    font-weight: bolder;
+    color: var(--color5);
+    margin: 2rem 3rem 0 auto;
+  }
+
+  .about-txt > p {
+    margin: 3rem 1rem 1rem 1.5rem;
+    color: var(--color5);
+  }
+
   .button {
     font-weight: bold;
     border: 2px solid var(--color3);
@@ -440,8 +520,14 @@
     padding: 4px 6px;
   }
 
-  .data {
-    width: 90%;
+  .icon {
+    max-width: 84px;
+    max-height: 44px;
+  }
+  
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+    max-width: 52px;
+    max-height: 37px;
   }
 }
 
@@ -449,6 +535,11 @@
   .name {
     font-size: 3rem;
     margin-top: 3rem;
+  }
+
+  .dev {
+    font-weight: lighter;
+    margin: 2rem 3.7rem;
   }
 
   .social li {
@@ -460,7 +551,15 @@
     margin: 2rem 10rem;
   }
 
-  
+  #arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1.8rem;
+    left: 0.3rem;
+  }
+
   .contrast {
     background-color: rgb(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -473,8 +572,8 @@
     height: 96vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 90% 70%;
-    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .carousel-size {
@@ -488,5 +587,21 @@
     border-radius: 5px;
     margin: 0.5rem 1.1rem 0.5rem;
     padding: 4px 7px;
+  }
+
+  .techs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
+  }
+
+  .icon {
+    max-width: 84px;
+    max-height: 44px;
+  }
+  
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+    max-width: 52px;
+    max-height: 37px;
   }
 }
