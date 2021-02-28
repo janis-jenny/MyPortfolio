@@ -163,6 +163,16 @@
   left: 8rem;
 }
 
+.CV {
+  text-decoration: none;
+  color: var(--color5);
+}
+
+.CV:hover {
+  text-decoration: none;
+  color: var(--color5);
+}
+
 .about-txt > h1 {
   font-weight: bolder;
   color: var(--color3);
@@ -445,9 +455,14 @@
     max-height: 44px;
   }
   
-  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js {
     max-width: 52px;
     max-height: 37px;
+  }
+
+  .icon-react {
+    max-width: 60px;
+    max-height: 40px;
   }
 }
 
@@ -530,9 +545,14 @@
     max-height: 44px;
   }
   
-  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js{
     max-width: 52px;
     max-height: 37px;
+  }
+
+  .icon-react {
+    max-width: 60px;
+    max-height: 40px;
   }
 }
 
@@ -605,8 +625,13 @@
     max-height: 44px;
   }
   
-  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js, .icon-react {
+  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js {
     max-width: 52px;
     max-height: 37px;
+  }
+
+  .icon-react {
+    max-width: 60px;
+    max-height: 40px;
   }
 }
