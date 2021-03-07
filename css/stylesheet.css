@@ -260,6 +260,10 @@
   border-radius: 5px;
 }
 
+h5 {
+  color: var(--color3);
+}
+
 .data, .soft, .other {
   border: 2.5px solid var(--color3);
   border-radius: 7px;
@@ -352,7 +356,7 @@
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 7rem;
+    left: 7.2rem;
   }
 
   .art-img {
@@ -397,6 +401,10 @@
     color: var(--color5);
   }
   
+  .about-txt > span {
+    right: 3.2rem;
+  }
+
   .contact {
     height: 18rem;
   }
@@ -455,14 +463,19 @@
     max-height: 44px;
   }
   
-  .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js {
+  .icon-bs {
+    max-width: 47px;
+    max-height: 35px;
+  }
+
+  .icon-sass, .icon-ruby, .icon-rails, .icon-js {
     max-width: 52px;
     max-height: 37px;
   }
 
   .icon-react {
-    max-width: 60px;
-    max-height: 40px;
+    max-width: 58px;
+    max-height: 45px;
   }
 }
 
