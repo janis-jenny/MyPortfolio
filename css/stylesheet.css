@@ -281,6 +281,10 @@
   background-image: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/weatherapp-mockup.jpg);
 }
 
+.game {
+  background-image: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/game-mockup.jpg);
+}
+
 .button {
   font-weight: bold;
   border: 2px solid var(--color3);
