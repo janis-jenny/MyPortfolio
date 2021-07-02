@@ -124,8 +124,17 @@
   color: var(--color5);
 }
 
+.icon {
+  transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
 .icon:hover {
+  transform: scale(1.2);
   color: var(--color3);
+}
+
+.icon:active {
+  transform: scale(1.1);
 }
 
 .social {
@@ -334,14 +343,14 @@ h5 {
 }
 
 #technologies > h5 {
-  color: var(--color5);
-}
-
-.techs > li {
   color: var(--color3);
 }
 
-.icon {
+.techs > li {
+  color: var(--color5);
+}
+
+.icon-html-css {
   max-width: 60px;
   max-height: 100px;
 }
@@ -527,7 +536,7 @@ h5 {
     flex-direction: column;
   }
 
-  .icon {
+  .icon-html-css {
     max-width: 84px;
     max-height: 44px;
   }
@@ -709,7 +718,7 @@ h5 {
     margin: 0.5rem 2rem;
   }
 
-  .icon {
+  .icon-html-css {
     max-width: 84px;
     max-height: 44px;
   }
