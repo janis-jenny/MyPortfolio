@@ -18,11 +18,11 @@
   <link rel="stylesheet" href="css/stylesheet.css" />
   <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-  
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
   <title>Paola Jenny Cárdenas | Welcome</title>
 
 </head>
@@ -61,7 +61,7 @@
     <section id="about" class="about row">
       <div class="col-sm-12 col-lg-6 position-relative mt-4">
         <div class="art-img">
-          <img src="./images/Paola_02_effect.jpg" alt="my-photo">
+          <img src="./images/Paola_02_effect.jpg" alt="my-photo" data-aos="zoom-in-up">
         </div>
         <div id="rectangle"></div>
       </div>
@@ -226,8 +226,8 @@
         </div>
       </div>
     </section>
-    <footer id="contact" class="row m-0">
-      <div class="d-xs-flex flex-xs-colum container-fluid contact col-sm-12 d-lg-flex justify-content-around m-0">
+    <footer id="contact" class="row">
+      <div class="d-xs-flex flex-xs-colum container-fluid contact col-sm-12 d-lg-flex justify-content-around p-0">
         <div class="flex-column my-3 py-1">
           <h3>Location</h3>
           <span>Lima, PERU</span>
@@ -254,6 +254,9 @@
       $("#year").text(new Date().getFullYear());
     </script>
   </main>
-  <!-- <script src="./js/index.js"></script> -->
+  <!-- Addons script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();
+  </script>
 </body>
 </html>
