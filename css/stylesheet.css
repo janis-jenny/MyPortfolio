@@ -358,8 +358,12 @@ h5 {
 .made {
   color: var(--color5);
   font-size: 15px;
-  margin-left: 10px;
-  padding: 2px 3px 3px 4px;
+  padding: 0.2rem 1.5rem;
+  justify-content: flex-start;
+}
+
+.made *+*, #year {
+  padding-right: 1rem;
 }
 
 #logo-footer {
@@ -537,11 +541,11 @@ h5 {
 
   .button {
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     border: 2px solid var(--color3);
     border-radius: 5px;
     margin: 0.3rem 0.9rem 0.3rem;
-    padding: 0.3rem 0.6rem;
+    padding: 0.2rem 0.6rem;
   }
 
   .boxes {
@@ -676,8 +680,7 @@ h5 {
 
   .carousel-inner > .carousel-item > .carousel-image {
     width: 100%;
-    height: 460px;
-    object-fit: contain;
+    height: 660px;
   }
 
   .description {
@@ -690,6 +693,19 @@ h5 {
     border-radius: 5px;
     margin: 0.2rem 1rem;
     padding: 4px 6px;
+  }
+
+  .techs {
+    margin-bottom: 0;
+  }
+
+  .techs > li {
+    margin: 0.6rem 1rem;
+  }
+
+  .tech-list {
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .icon-html-css {
@@ -785,10 +801,15 @@ h5 {
     padding: 4px 7px;
   }
 
-  .techs {
+  .techs > li {
     display: flex;
     justify-content: space-between;
-    margin: 0.5rem 2rem;
+    padding: 0.3rem 0;
+  }
+
+  .tech-list {
+    margin: 1rem 0;
+    padding: 0 1.5rem;
   }
 
   .icon-html-css {
