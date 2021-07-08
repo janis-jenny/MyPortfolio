@@ -399,6 +399,22 @@ h5 {
 */
 
 @media screen and (max-width: 800px) {
+  .link-list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.45rem;
+  }
+
+  .links {
+    font-size: 0.8rem;
+    padding: 0.34rem;
+    margin: 0;
+  }
+
+  #logo {
+    margin-left: -1rem;
+  }
+
   .name {
     font-size: 2rem;
     margin-top: 3rem;
@@ -507,19 +523,25 @@ h5 {
     border-radius: 5px;
     padding: 1rem;
     margin: 0rem 2rem;
-    bottom: 2rem;
+    bottom: 1rem;
   }
 
   .contrast > h3 {
     font-size: 15px;
   }
   
+  .carousel-inner > .carousel-item > .carousel-image {
+    width: 100%;
+    height: 380px;
+  }
+
   .button {
     font-weight: bold;
+    font-size: 0.7rem;
     border: 2px solid var(--color3);
     border-radius: 5px;
-    margin: 0.5rem 1.1rem 0.5rem;
-    padding: 4px 6px;
+    margin: 0.3rem 0.9rem 0.3rem;
+    padding: 0.3rem 0.6rem;
   }
 
   .boxes {
@@ -528,8 +550,12 @@ h5 {
     margin-left: 0;
   }
 
+  .techs {
+    margin-bottom: 0;
+  }
+
   .techs > li {
-    margin: 0.5rem 1rem;
+    margin: 0.6rem 1rem;
   }
 
   .tech-list {
@@ -538,26 +564,50 @@ h5 {
 
   .icon-html-css {
     max-width: 84px;
-    max-height: 44px;
+    max-height: 42px;
+    padding-left: 2.5rem;
   }
   
   .icon-bs {
-    max-width: 47px;
-    max-height: 35px;
+    max-width: 42px;
+    max-height: 32px;
   }
 
   .icon-sass, .icon-ruby, .icon-rails, .icon-js {
-    max-width: 52px;
-    max-height: 37px;
+    max-width: 45px;
+    max-height: 35px;
   }
 
   .icon-react {
-    max-width: 58px;
-    max-height: 45px;
+    max-width: 50px;
+    max-height: 43px;
+  }
+
+  .made {
+    order: 1;
+    margin: 1.3rem 0;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .made > *+* {
+    padding: 0 1.5rem;
+  }
+
+  .social-footer {
+    margin: 1.5rem 0;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 960px)  {
+  .links {
+    padding: 0.6rem;
+    margin-bottom: 0.4rem;
+  }
+
   .name {
     font-size: 2rem;
     margin-top: 3rem;
@@ -621,6 +671,12 @@ h5 {
   .about-txt > p {
     margin: 1rem 1.8rem 1rem 1rem;
     color: var(--color5);
+  }
+
+  .carousel-inner > .carousel-item > .carousel-image {
+    width: 100%;
+    height: 460px;
+    object-fit: contain;
   }
 
   .button {
