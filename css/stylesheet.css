@@ -606,6 +606,7 @@ h5 {
   .links {
     padding: 0.6rem;
     margin-bottom: 0.4rem;
+    font-size: 0.9rem;
   }
 
   .name {
@@ -679,22 +680,38 @@ h5 {
     object-fit: contain;
   }
 
+  .description {
+    font-size: 0.8rem;
+  }
+
   .button {
     font-weight: bold;
     border: 2px solid var(--color3);
     border-radius: 5px;
-    margin: 0.5rem 1.1rem 0.5rem;
+    margin: 0.2rem 1rem;
     padding: 4px 6px;
   }
 
+  .icon-html-css {
+    max-width: 84px;
+    max-height: 42px;
+    padding-left: 2.5rem;
+  }
+
   .icon-bs, .icon-sass, .icon-ruby, .icon-rails, .icon-js {
-    max-width: 52px;
-    max-height: 37px;
+    max-width: 44px;
+    max-height: 34px;
   }
 
   .icon-react {
-    max-width: 60px;
-    max-height: 40px;
+    max-width: 50px;
+    max-height: 43px;
+  }
+
+  .made {
+    order: 0;
+    justify-content: flex-start;
+    padding: 0;
   }
 
   .social-footer i {
